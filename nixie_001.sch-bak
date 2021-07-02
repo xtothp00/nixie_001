@@ -1,0 +1,887 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "7350 92 001/1"
+Date "2021-03-21"
+Rev "1.0"
+Comp ""
+Comment1 "DTP1-5"
+Comment2 "Nixie vezérlő"
+Comment3 "Számláló"
+Comment4 ""
+$EndDescr
+$Comp
+L Nixie:Z574M N1
+U 1 1 60577112
+P 5350 1900
+F 0 "N1" H 5350 2891 50  0000 C CNN
+F 1 "Z574M" H 5350 2800 50  0000 C CNN
+F 2 "" H 5350 2000 50  0001 C CNN
+F 3 "" H 5350 2000 50  0001 C CNN
+	1    5350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixie:Z574M N2
+U 1 1 6057A6D8
+P 5350 3850
+F 0 "N2" H 5350 4841 50  0000 C CNN
+F 1 "Z574M" H 5350 4750 50  0000 C CNN
+F 2 "" H 5350 3950 50  0001 C CNN
+F 3 "" H 5350 3950 50  0001 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixie:Z574M N3
+U 1 1 6057F498
+P 5350 5800
+F 0 "N3" H 5350 6791 50  0000 C CNN
+F 1 "Z574M" H 5350 6700 50  0000 C CNN
+F 2 "" H 5350 5900 50  0001 C CNN
+F 3 "" H 5350 5900 50  0001 C CNN
+	1    5350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1400 4950 1400
+Wire Wire Line
+	4950 1500 4400 1500
+Wire Wire Line
+	4400 1600 4950 1600
+Wire Wire Line
+	4950 1700 4400 1700
+Wire Wire Line
+	4400 1800 4950 1800
+Wire Wire Line
+	4950 1900 4400 1900
+Wire Wire Line
+	4400 2000 4950 2000
+Wire Wire Line
+	4950 2100 4400 2100
+Wire Wire Line
+	4400 2200 4950 2200
+Wire Wire Line
+	4950 2300 4400 2300
+Wire Wire Line
+	4400 3350 4950 3350
+Wire Wire Line
+	4950 3450 4400 3450
+Wire Wire Line
+	4400 3550 4950 3550
+Wire Wire Line
+	4950 3650 4400 3650
+Wire Wire Line
+	4400 3750 4950 3750
+Wire Wire Line
+	4950 3850 4400 3850
+Wire Wire Line
+	4400 3950 4950 3950
+Wire Wire Line
+	4950 4050 4400 4050
+Wire Wire Line
+	4400 4150 4950 4150
+Wire Wire Line
+	4950 4250 4400 4250
+$Comp
+L Other:pierced_terminal t7
+U 1 1 6058C56A
+P 3200 1500
+F 0 "t7" H 3200 1400 50  0001 C CNN
+F 1 "pierced_terminal" H 3250 1650 50  0001 C CNN
+F 2 "" H 3200 1500 50  0001 C CNN
+F 3 "" H 3200 1500 50  0001 C CNN
+	1    3200 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5300 4950 5300
+Wire Wire Line
+	4950 5400 4400 5400
+Wire Wire Line
+	4400 5500 4950 5500
+Wire Wire Line
+	4950 5600 4400 5600
+Wire Wire Line
+	4400 5700 4950 5700
+Wire Wire Line
+	4950 5800 4400 5800
+Wire Wire Line
+	4400 5900 4950 5900
+Wire Wire Line
+	4950 6000 4400 6000
+Wire Wire Line
+	4950 6100 4400 6100
+Wire Wire Line
+	4400 6200 4950 6200
+$Comp
+L Other:pierced_terminal t10
+U 1 1 6059FEA9
+P 3300 1500
+F 0 "t10" H 3300 1400 50  0001 C CNN
+F 1 "pierced_terminal" H 3350 1650 50  0001 C CNN
+F 2 "" H 3300 1500 50  0001 C CNN
+F 3 "" H 3300 1500 50  0001 C CNN
+	1    3300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t1
+U 1 1 605A28F6
+P 3000 1500
+F 0 "t1" H 3000 1400 50  0001 C CNN
+F 1 "pierced_terminal" H 3050 1650 50  0001 C CNN
+F 2 "" H 3000 1500 50  0001 C CNN
+F 3 "" H 3000 1500 50  0001 C CNN
+	1    3000 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t4
+U 1 1 605A28FC
+P 3100 1500
+F 0 "t4" H 3100 1400 50  0001 C CNN
+F 1 "pierced_terminal" H 3150 1650 50  0001 C CNN
+F 2 "" H 3100 1500 50  0001 C CNN
+F 3 "" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t8
+U 1 1 605B0BF8
+P 3200 3450
+F 0 "t8" H 3200 3350 50  0001 C CNN
+F 1 "pierced_terminal" H 3250 3600 50  0001 C CNN
+F 2 "" H 3200 3450 50  0001 C CNN
+F 3 "" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t11
+U 1 1 605B0BFE
+P 3300 3450
+F 0 "t11" H 3300 3350 50  0001 C CNN
+F 1 "pierced_terminal" H 3350 3600 50  0001 C CNN
+F 2 "" H 3300 3450 50  0001 C CNN
+F 3 "" H 3300 3450 50  0001 C CNN
+	1    3300 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t2
+U 1 1 605B0C04
+P 3000 3450
+F 0 "t2" H 3000 3350 50  0001 C CNN
+F 1 "pierced_terminal" H 3050 3600 50  0001 C CNN
+F 2 "" H 3000 3450 50  0001 C CNN
+F 3 "" H 3000 3450 50  0001 C CNN
+	1    3000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t5
+U 1 1 605B0C0A
+P 3100 3450
+F 0 "t5" H 3100 3350 50  0001 C CNN
+F 1 "pierced_terminal" H 3150 3600 50  0001 C CNN
+F 2 "" H 3100 3450 50  0001 C CNN
+F 3 "" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t6
+U 1 1 605B28D8
+P 3100 5400
+F 0 "t6" H 3100 5300 50  0001 C CNN
+F 1 "pierced_terminal" H 3150 5550 50  0001 C CNN
+F 2 "" H 3100 5400 50  0001 C CNN
+F 3 "" H 3100 5400 50  0001 C CNN
+	1    3100 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t3
+U 1 1 605B28D2
+P 3000 5400
+F 0 "t3" H 3000 5300 50  0001 C CNN
+F 1 "pierced_terminal" H 3050 5550 50  0001 C CNN
+F 2 "" H 3000 5400 50  0001 C CNN
+F 3 "" H 3000 5400 50  0001 C CNN
+	1    3000 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t12
+U 1 1 605B28CC
+P 3300 5400
+F 0 "t12" H 3300 5300 50  0001 C CNN
+F 1 "pierced_terminal" H 3350 5550 50  0001 C CNN
+F 2 "" H 3300 5400 50  0001 C CNN
+F 3 "" H 3300 5400 50  0001 C CNN
+	1    3300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Other:pierced_terminal t9
+U 1 1 605B28C6
+P 3200 5400
+F 0 "t9" H 3200 5300 50  0001 C CNN
+F 1 "pierced_terminal" H 3250 5550 50  0001 C CNN
+F 2 "" H 3200 5400 50  0001 C CNN
+F 3 "" H 3200 5400 50  0001 C CNN
+	1    3200 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 1700 2950 1700
+Wire Wire Line
+	3400 1800 3100 1800
+Wire Wire Line
+	2900 1900 3200 1900
+Wire Wire Line
+	3400 2000 3300 2000
+Wire Wire Line
+	2900 3650 2950 3650
+Wire Wire Line
+	3400 3750 3100 3750
+Wire Wire Line
+	2900 3850 3200 3850
+Wire Wire Line
+	3400 3950 3300 3950
+Wire Wire Line
+	3400 5600 3000 5600
+Wire Wire Line
+	2900 5700 3100 5700
+Wire Wire Line
+	3400 5800 3200 5800
+Wire Wire Line
+	2900 5900 3300 5900
+Wire Wire Line
+	3000 5600 3000 5500
+Connection ~ 3000 5600
+Wire Wire Line
+	3000 5600 2950 5600
+Wire Wire Line
+	3100 5500 3100 5700
+Connection ~ 3100 5700
+Wire Wire Line
+	3100 5700 3400 5700
+Wire Wire Line
+	3200 5800 3200 5500
+Connection ~ 3200 5800
+Wire Wire Line
+	3200 5800 2900 5800
+Wire Wire Line
+	3300 5500 3300 5900
+Connection ~ 3300 5900
+Wire Wire Line
+	3300 5900 3400 5900
+Wire Wire Line
+	3300 3550 3300 3950
+Connection ~ 3300 3950
+Wire Wire Line
+	3300 3950 2900 3950
+Wire Wire Line
+	3200 3850 3200 3550
+Connection ~ 3200 3850
+Wire Wire Line
+	3200 3850 3400 3850
+Wire Wire Line
+	3100 3550 3100 3750
+Connection ~ 3100 3750
+Wire Wire Line
+	3100 3750 2900 3750
+Wire Wire Line
+	3000 3650 3000 3550
+Connection ~ 3000 3650
+Wire Wire Line
+	3000 3650 3400 3650
+Wire Wire Line
+	3000 1600 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3400 1700
+Wire Wire Line
+	3100 1600 3100 1800
+Connection ~ 3100 1800
+Wire Wire Line
+	3100 1800 2900 1800
+Wire Wire Line
+	3200 1600 3200 1900
+Connection ~ 3200 1900
+Wire Wire Line
+	3200 1900 3400 1900
+Wire Wire Line
+	3300 2000 3300 1600
+Connection ~ 3300 2000
+Wire Wire Line
+	3300 2000 2900 2000
+$Comp
+L Tesla_Transistor:KC509 Q1
+U 1 1 60625931
+P 8750 2900
+F 0 "Q1" H 8941 2946 50  0000 L CNN
+F 1 "KC509" H 8941 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 8950 2825 50  0001 L CIN
+F 3 "http://www.teslakatalog.cz/KC509.html" H 8750 2900 50  0001 L CNN
+	1    8750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60626614
+P 6050 1900
+F 0 "R1" V 5843 1900 50  0000 C CNN
+F 1 "8k2" V 5934 1900 50  0000 C CNN
+F 2 "" V 5980 1900 50  0001 C CNN
+F 3 "~" H 6050 1900 50  0001 C CNN
+	1    6050 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60628056
+P 6050 3850
+F 0 "R2" V 5843 3850 50  0000 C CNN
+F 1 "8k2" V 5934 3850 50  0000 C CNN
+F 2 "" V 5980 3850 50  0001 C CNN
+F 3 "~" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6062A18D
+P 6050 5800
+F 0 "R3" V 5843 5800 50  0000 C CNN
+F 1 "8k2" V 5934 5800 50  0000 C CNN
+F 2 "" V 5980 5800 50  0001 C CNN
+F 3 "~" H 6050 5800 50  0001 C CNN
+	1    6050 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 1900 5900 1900
+Wire Wire Line
+	5900 3850 5750 3850
+Wire Wire Line
+	5750 5800 5900 5800
+Wire Wire Line
+	6200 1900 6450 1900
+Wire Wire Line
+	6450 1900 6450 3850
+Wire Wire Line
+	6450 3850 6200 3850
+Wire Wire Line
+	6450 3850 6450 5800
+Wire Wire Line
+	6450 5800 6200 5800
+Connection ~ 6450 3850
+$Comp
+L pspice:DIODE D1
+U 1 1 6064F3DB
+P 6450 1700
+F 0 "D1" V 6404 1828 50  0000 L CNN
+F 1 "DIODE" V 6495 1828 50  0000 L CNN
+F 2 "" H 6450 1700 50  0001 C CNN
+F 3 "~" H 6450 1700 50  0001 C CNN
+	1    6450 1700
+	0    1    1    0   
+$EndComp
+Connection ~ 6450 1900
+Wire Wire Line
+	2950 3650 2950 3050
+Wire Wire Line
+	2950 3050 1700 3050
+Wire Wire Line
+	1700 3050 1700 3750
+Wire Wire Line
+	1700 3750 1900 3750
+Connection ~ 2950 3650
+Wire Wire Line
+	2950 3650 3000 3650
+Wire Wire Line
+	2950 1700 2950 1100
+Wire Wire Line
+	2950 1100 1700 1100
+Wire Wire Line
+	1700 1100 1700 1700
+Wire Wire Line
+	1700 1800 1900 1800
+Connection ~ 2950 1700
+Wire Wire Line
+	2950 1700 3000 1700
+Wire Wire Line
+	2950 5600 2950 5000
+Wire Wire Line
+	2950 5000 1700 5000
+Wire Wire Line
+	1700 5000 1700 5700
+Wire Wire Line
+	1700 5700 1900 5700
+Connection ~ 2950 5600
+Wire Wire Line
+	2950 5600 2900 5600
+Wire Wire Line
+	1900 6200 1700 6200
+Wire Wire Line
+	1700 6200 1700 6300
+Wire Wire Line
+	1900 6300 1700 6300
+Connection ~ 1700 6300
+Wire Wire Line
+	1700 6300 1700 6600
+Wire Wire Line
+	1900 4250 1700 4250
+Wire Wire Line
+	1700 4250 1700 4350
+Wire Wire Line
+	1900 4350 1700 4350
+Connection ~ 1700 4350
+Wire Wire Line
+	1700 4350 1700 4650
+Wire Wire Line
+	1900 2300 1700 2300
+Wire Wire Line
+	1700 2300 1700 2400
+Wire Wire Line
+	1900 2400 1700 2400
+Connection ~ 1700 2400
+$Comp
+L Other:pierced_terminal t14
+U 1 1 6067DB94
+P 8100 4150
+F 0 "t14" H 8100 4050 50  0001 C CNN
+F 1 "pierced_terminal" H 8150 4300 50  0001 C CNN
+F 2 "" H 8100 4150 50  0001 C CNN
+F 3 "" H 8100 4150 50  0001 C CNN
+	1    8100 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2000 1700 2000
+Wire Wire Line
+	1900 2100 1700 2100
+Wire Wire Line
+	1700 2100 1700 2000
+Wire Wire Line
+	1900 5900 1700 5900
+Wire Wire Line
+	1900 6000 1700 6000
+Wire Wire Line
+	1700 6000 1700 5900
+Connection ~ 1700 5900
+Wire Wire Line
+	1700 5900 1450 5900
+Wire Wire Line
+	1900 4050 1700 4050
+Wire Wire Line
+	1700 4050 1700 3950
+Wire Wire Line
+	1700 3950 1450 3950
+Wire Wire Line
+	1900 3950 1700 3950
+Connection ~ 1700 3950
+Text Label 3000 1600 0    50   ~ 0
+A
+Text Label 3100 1600 0    50   ~ 0
+B
+Text Label 3200 1600 0    50   ~ 0
+C
+Text Label 3300 1600 0    50   ~ 0
+D
+Text Label 3000 3550 0    50   ~ 0
+A
+Text Label 3100 3550 0    50   ~ 0
+B
+Text Label 3200 3550 0    50   ~ 0
+C
+Text Label 3300 3550 0    50   ~ 0
+D
+Text Label 3000 5500 0    50   ~ 0
+A
+Text Label 3100 5500 0    50   ~ 0
+B
+Text Label 3200 5500 0    50   ~ 0
+C
+Text Label 3300 5500 0    50   ~ 0
+D
+Wire Wire Line
+	1900 3650 1800 3650
+Wire Wire Line
+	1800 3650 1800 3150
+Wire Wire Line
+	1800 3150 3300 3150
+Wire Wire Line
+	3300 3150 3300 2000
+Wire Wire Line
+	1900 5600 1800 5600
+Wire Wire Line
+	1800 5600 1800 5100
+Wire Wire Line
+	1800 5100 3300 5100
+Wire Wire Line
+	3300 5100 3300 3950
+$Comp
+L Device:R R4
+U 1 1 606D181A
+P 8300 2900
+F 0 "R4" V 8093 2900 50  0000 C CNN
+F 1 "R" V 8184 2900 50  0000 C CNN
+F 2 "" V 8230 2900 50  0001 C CNN
+F 3 "~" H 8300 2900 50  0001 C CNN
+	1    8300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 606D390C
+P 8850 2450
+F 0 "R5" H 8920 2496 50  0000 L CNN
+F 1 "R" H 8920 2405 50  0000 L CNN
+F 2 "" V 8780 2450 50  0001 C CNN
+F 3 "~" H 8850 2450 50  0001 C CNN
+	1    8850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 606D5F6B
+P 8550 3350
+F 0 "C1" H 8665 3396 50  0000 L CNN
+F 1 "C" H 8665 3305 50  0000 L CNN
+F 2 "" H 8588 3200 50  0001 C CNN
+F 3 "~" H 8550 3350 50  0001 C CNN
+	1    8550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2600 8850 2700
+Wire Wire Line
+	8550 2900 8450 2900
+$Comp
+L power:GND #PWR0101
+U 1 1 606EA434
+P 8750 3750
+F 0 "#PWR0101" H 8750 3500 50  0001 C CNN
+F 1 "GND" H 8755 3577 50  0000 C CNN
+F 2 "" H 8750 3750 50  0001 C CNN
+F 3 "" H 8750 3750 50  0001 C CNN
+	1    8750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2900 8000 2900
+Text GLabel 8000 2900 0    50   Input ~ 0
+V
+Wire Wire Line
+	1700 2000 1450 2000
+Connection ~ 1700 2000
+Text GLabel 8100 4250 3    50   Input ~ 0
+R
+Text GLabel 1450 2000 0    50   Input ~ 0
+R
+Text GLabel 1450 3950 0    50   Input ~ 0
+R
+Text GLabel 1450 5900 0    50   Input ~ 0
+R
+$Comp
+L Other:pierced_terminal t13
+U 1 1 60704F24
+P 7950 4150
+F 0 "t13" H 7950 4050 50  0001 C CNN
+F 1 "pierced_terminal" H 8000 4300 50  0001 C CNN
+F 2 "" H 7950 4150 50  0001 C CNN
+F 3 "" H 7950 4150 50  0001 C CNN
+	1    7950 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 7950 4250 3    50   Input ~ 0
+V
+$Comp
+L Other:pierced_terminal t16
+U 1 1 6071BFBE
+P 8500 4150
+F 0 "t16" H 8500 4050 50  0001 C CNN
+F 1 "pierced_terminal" H 8550 4300 50  0001 C CNN
+F 2 "" H 8500 4150 50  0001 C CNN
+F 3 "" H 8500 4150 50  0001 C CNN
+	1    8500 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 8500 4250 3    50   Input ~ 0
+-
+$Comp
+L Other:pierced_terminal t15
+U 1 1 6071BFC5
+P 8250 4150
+F 0 "t15" H 8250 4050 50  0001 C CNN
+F 1 "pierced_terminal" H 8300 4300 50  0001 C CNN
+F 2 "" H 8250 4150 50  0001 C CNN
+F 3 "" H 8250 4150 50  0001 C CNN
+	1    8250 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 4250 3    50   Input ~ 0
++
+$Comp
+L power:GND #PWR0102
+U 1 1 60726444
+P 8600 4450
+F 0 "#PWR0102" H 8600 4200 50  0001 C CNN
+F 1 "GND" H 8605 4277 50  0000 C CNN
+F 2 "" H 8600 4450 50  0001 C CNN
+F 3 "" H 8600 4450 50  0001 C CNN
+	1    8600 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4250 8600 4250
+Wire Wire Line
+	8600 4250 8600 4450
+$Comp
+L Tesla_IC:MH7490A U2
+U 1 1 6058C329
+P 2400 3950
+F 0 "U2" H 2150 4450 50  0000 C CNN
+F 1 "MH7490A" H 2650 4450 50  0000 C CNN
+F 2 "" H 2400 3950 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH7490A.html" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tesla_IC:MH7490A U3
+U 1 1 6058E0EF
+P 2400 5900
+F 0 "U3" H 2150 6400 50  0000 C CNN
+F 1 "MH7490A" H 2650 6400 50  0000 C CNN
+F 2 "" H 2400 5900 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH7490A.html" H 2400 5900 50  0001 C CNN
+	1    2400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tesla_IC:MH7490A U1
+U 1 1 6058F140
+P 2400 2000
+F 0 "U1" H 2150 2500 50  0000 C CNN
+F 1 "MH7490A" H 2650 2500 50  0000 C CNN
+F 2 "" H 2400 2000 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH7490A.html" H 2400 2000 50  0001 C CNN
+	1    2400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tesla_IC:MH74141 U4
+U 1 1 60591D03
+P 3900 1850
+F 0 "U4" H 3650 2500 50  0000 C CNN
+F 1 "MH74141" H 4150 2500 50  0000 C CNN
+F 2 "" H 3900 1850 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH74141.html" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tesla_IC:MH74141 U5
+U 1 1 60593059
+P 3900 3800
+F 0 "U5" H 3650 4450 50  0000 C CNN
+F 1 "MH74141" H 4150 4450 50  0000 C CNN
+F 2 "" H 3900 3800 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH74141.html" H 3900 3800 50  0001 C CNN
+	1    3900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tesla_IC:MH74141 U6
+U 1 1 605940F7
+P 3900 5750
+F 0 "U6" H 3650 6400 50  0000 C CNN
+F 1 "MH74141" H 4150 6400 50  0000 C CNN
+F 2 "" H 3900 5750 50  0001 C CNN
+F 3 "http://www.teslakatalog.cz/MH74141.html" H 3900 5750 50  0001 C CNN
+	1    3900 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 5300 1    50   Input ~ 0
++
+Text GLabel 2400 3350 1    50   Input ~ 0
++
+Text GLabel 3900 5000 1    50   Input ~ 0
++
+Text GLabel 2400 1400 1    50   Input ~ 0
++
+Text GLabel 3900 1100 1    50   Input ~ 0
++
+Text GLabel 3900 3050 1    50   Input ~ 0
++
+$Comp
+L power:GND #PWR0103
+U 1 1 605DA47B
+P 2100 6650
+F 0 "#PWR0103" H 2100 6400 50  0001 C CNN
+F 1 "GND" H 2105 6477 50  0000 C CNN
+F 2 "" H 2100 6650 50  0001 C CNN
+F 3 "" H 2100 6650 50  0001 C CNN
+	1    2100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6600 2100 6600
+Wire Wire Line
+	2100 6650 2100 6600
+Connection ~ 2100 6600
+Wire Wire Line
+	2100 6600 1700 6600
+$Comp
+L power:GND #PWR0104
+U 1 1 605F123F
+P 2100 4700
+F 0 "#PWR0104" H 2100 4450 50  0001 C CNN
+F 1 "GND" H 2105 4527 50  0000 C CNN
+F 2 "" H 2100 4700 50  0001 C CNN
+F 3 "" H 2100 4700 50  0001 C CNN
+	1    2100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4700 2100 4650
+$Comp
+L power:GND #PWR0105
+U 1 1 605F8921
+P 2100 2750
+F 0 "#PWR0105" H 2100 2500 50  0001 C CNN
+F 1 "GND" H 2105 2577 50  0000 C CNN
+F 2 "" H 2100 2750 50  0001 C CNN
+F 3 "" H 2100 2750 50  0001 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2750 2100 2700
+Wire Wire Line
+	2400 2700 2100 2700
+Wire Wire Line
+	1700 2400 1700 2700
+Connection ~ 2100 2700
+Wire Wire Line
+	2100 2700 1700 2700
+Wire Wire Line
+	2400 4650 2100 4650
+Connection ~ 2100 4650
+Wire Wire Line
+	2100 4650 1700 4650
+$Comp
+L power:GND #PWR0106
+U 1 1 6060E899
+P 3900 2650
+F 0 "#PWR0106" H 3900 2400 50  0001 C CNN
+F 1 "GND" H 3905 2477 50  0000 C CNN
+F 2 "" H 3900 2650 50  0001 C CNN
+F 3 "" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2650 3900 2600
+$Comp
+L power:GND #PWR0107
+U 1 1 60615892
+P 3900 4600
+F 0 "#PWR0107" H 3900 4350 50  0001 C CNN
+F 1 "GND" H 3905 4427 50  0000 C CNN
+F 2 "" H 3900 4600 50  0001 C CNN
+F 3 "" H 3900 4600 50  0001 C CNN
+	1    3900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4600 3900 4550
+$Comp
+L power:GND #PWR0108
+U 1 1 6061D8D0
+P 3900 6550
+F 0 "#PWR0108" H 3900 6300 50  0001 C CNN
+F 1 "GND" H 3905 6377 50  0000 C CNN
+F 2 "" H 3900 6550 50  0001 C CNN
+F 3 "" H 3900 6550 50  0001 C CNN
+	1    3900 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6550 3900 6500
+$Comp
+L Other:pierced_terminal t17
+U 1 1 60627435
+P 8750 4150
+F 0 "t17" H 8750 4050 50  0001 C CNN
+F 1 "pierced_terminal" H 8800 4300 50  0001 C CNN
+F 2 "" H 8750 4150 50  0001 C CNN
+F 3 "" H 8750 4150 50  0001 C CNN
+	1    8750 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 8750 4250 3    50   Input ~ 0
+200V
+Wire Wire Line
+	8750 4250 8850 4250
+Wire Wire Line
+	8850 4250 8850 4450
+$Comp
+L power:Vdrive #PWR0109
+U 1 1 60630120
+P 8850 4450
+F 0 "#PWR0109" H 8650 4300 50  0001 C CNN
+F 1 "Vdrive" H 8865 4623 50  0000 C CNN
+F 2 "" H 8850 4450 50  0001 C CNN
+F 3 "" H 8850 4450 50  0001 C CNN
+	1    8850 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR0110
+U 1 1 606522DC
+P 8350 4450
+F 0 "#PWR0110" H 8350 4300 50  0001 C CNN
+F 1 "VDD" H 8365 4623 50  0000 C CNN
+F 2 "" H 8350 4450 50  0001 C CNN
+F 3 "" H 8350 4450 50  0001 C CNN
+	1    8350 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 4450 8350 4250
+Wire Wire Line
+	8350 4250 8250 4250
+Text GLabel 6450 1500 1    50   Input ~ 0
+200V
+Text GLabel 1900 1700 1    50   Input ~ 0
+collector
+Text GLabel 8850 2300 1    50   Input ~ 0
+collector
+Wire Wire Line
+	8550 2900 8550 3200
+Connection ~ 8550 2900
+Wire Wire Line
+	8550 3500 8750 3500
+Wire Wire Line
+	8750 3500 8750 3750
+Wire Wire Line
+	8750 3500 8850 3500
+Wire Wire Line
+	8850 3500 8850 3100
+Connection ~ 8750 3500
+Wire Wire Line
+	1900 1700 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 1700 1800
+$EndSCHEMATC

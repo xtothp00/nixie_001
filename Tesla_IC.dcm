@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MH74141
+F http://www.teslakatalog.cz/MH74141.html
+$ENDCMP
+#
+$CMP MH7490A
+D BCD Counter ( div 2 & div 5 )
+K TTL CNT CNT4
+F http://www.teslakatalog.cz/MH7490A.html
+$ENDCMP
+#
+#End Doc Library
